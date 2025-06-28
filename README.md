@@ -42,16 +42,16 @@ fake-news-detector/
 
 ## 🔧 How to Run (Locally)
 
-1. Clone the repository:
+# 1. Clone the repository:
    
    git clone https://github.com/your-username/fake-news-detector.git
    cd fake-news-detector
 
-2. Install dependencies:
+# 2. Install dependencies:
 
     pip install -r requirements.txt
 
-3. To load model & make predictions:
+# 3. To load model & make predictions:
 
     from tensorflow.keras.models import load_model
     import pickle
@@ -60,7 +60,7 @@ fake-news-detector/
     with open("model/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
-4. To retrieve real news suggestions:
+# 4. To retrieve real news suggestions:
 
     from retriever.fetch_real_news import fetch_real_news
     result = fetch_real_news("Some fake news text here")
