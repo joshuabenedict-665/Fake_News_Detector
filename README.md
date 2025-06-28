@@ -44,7 +44,7 @@ fake-news-detector/
 ## 🔧 How to Run (Locally)
 
 ### 1. Clone the repository:
-   
+
    git clone https://github.com/your-username/fake-news-detector.git
    cd fake-news-detector
 
@@ -79,10 +79,6 @@ fake-news-detector/
     We will add a Flask or FastAPI backend with a /predict route that:
     * Classifies the news input.
     * If fake, returns the closest matching real news article from trusted sources.
-
-## 📜 License
-
-    MIT License
 
 ## 📣 Acknowledgments
 
