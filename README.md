@@ -26,7 +26,7 @@ This project detects whether a news article is real or fake using a GRU-based de
 Achieved Test Accuracy: ✅ 99.84%
 
 ## 📂 Project Structure
-
+<pre lang="markdown"> ```
 fake-news-detector/
 ├── model/
 │ ├── fake_news_model.h5 ← Trained model
@@ -39,19 +39,20 @@ fake-news-detector/
 │ └── training_notebook.ipynb ← Colab notebook used for training
 ├── requirements.txt
 └── README.md
+``` </pre>
 
 ## 🔧 How to Run (Locally)
 
-# 1. Clone the repository:
+### 1. Clone the repository:
    
    git clone https://github.com/your-username/fake-news-detector.git
    cd fake-news-detector
 
-# 2. Install dependencies:
+### 2. Install dependencies:
 
     pip install -r requirements.txt
 
-# 3. To load model & make predictions:
+### 3. To load model & make predictions:
 
     from tensorflow.keras.models import load_model
     import pickle
@@ -60,7 +61,7 @@ fake-news-detector/
     with open("model/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
-# 4. To retrieve real news suggestions:
+### 4. To retrieve real news suggestions:
 
     from retriever.fetch_real_news import fetch_real_news
     result = fetch_real_news("Some fake news text here")
