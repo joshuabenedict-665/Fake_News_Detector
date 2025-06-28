@@ -26,7 +26,7 @@ This project detects whether a news article is real or fake using a GRU-based de
 Achieved Test Accuracy: ✅ 99.84%
 
 ## 📂 Project Structure
-<pre lang="markdown"> ```
+<pre lang="markdown">
 fake-news-detector/
 ├── model/
 │ ├── fake_news_model.h5 ← Trained model
@@ -39,7 +39,7 @@ fake-news-detector/
 │ └── training_notebook.ipynb ← Colab notebook used for training
 ├── requirements.txt
 └── README.md
-``` </pre>
+</pre>
 
 ## 🔧 How to Run (Locally)
 
