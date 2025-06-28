@@ -67,17 +67,17 @@ fake-news-detector/
 
 ## 📦 Dependencies
 
-    TensorFlow / Keras
-    Pandas, NumPy
-    scikit-learn
-    spaCy / KeyBERT (for keyword extraction)
-    Requests (for NewsAPI)
+    * TensorFlow / Keras
+    * Pandas, NumPy
+    * scikit-learn
+    * spaCy / KeyBERT (for keyword extraction)
+    * Requests (for NewsAPI)
 
 ## 🌐 API Integration (Planned)
 
     We will add a Flask or FastAPI backend with a /predict route that:
-    Classifies the news input.
-    If fake, returns the closest matching real news article from trusted sources.
+    * Classifies the news input.
+    * If fake, returns the closest matching real news article from trusted sources.
 
 ## 📜 License
 
@@ -85,11 +85,8 @@ fake-news-detector/
 
 ## 📣 Acknowledgments
 
-    Dataset: Kaggle - Fake and Real News
-    NewsAPI.org for real news suggestions
+    * Dataset: Kaggle - Fake and Real News
+    * NewsAPI.org for real news suggestions
 
----
-
-Let me know if you want me to generate and push this directly into your GitHub repo or export as a .md file.
 
 
