@@ -2,12 +2,12 @@
 
 This project detects whether a news article is real or fake using a GRU-based deep learning model. If an article is predicted as fake, it also suggests a correct real news article on the same topic using keyword extraction and real-time news search.
 
-## 👥 Team
+## Team
 
 - 2 Fullstack Developers
 - 2 AI/ML Developers
 
-## 🚀 Features
+## Features
 
 - Detect fake vs real news with high accuracy using a GRU model
 - Tokenizer-based preprocessing and padded sequences
@@ -15,7 +15,7 @@ This project detects whether a news article is real or fake using a GRU-based de
 - Modular folder structure for collaboration
 - Model & tokenizer saved and ready for deployment
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - Embedding Layer
 - GRU Layer
@@ -25,7 +25,7 @@ This project detects whether a news article is real or fake using a GRU-based de
 
 Achieved Test Accuracy: ✅ 99.84%
 
-## 📂 Project Structure
+## Project Structure
 <pre lang="markdown">
 fake-news-detector/
 ├── model/
@@ -41,7 +41,7 @@ fake-news-detector/
 └── README.md
 </pre>
 
-## 🔧 How to Run (Locally)
+## How to Run (Locally)
 
 ### 1. Clone the repository:
 
@@ -66,7 +66,7 @@ fake-news-detector/
     from retriever.fetch_real_news import fetch_real_news
     result = fetch_real_news("Some fake news text here")
 
-## 📦 Dependencies
+## Dependencies
 
     * TensorFlow / Keras
     * Pandas, NumPy
@@ -74,13 +74,13 @@ fake-news-detector/
     * spaCy / KeyBERT (for keyword extraction)
     * Requests (for NewsAPI)
 
-## 🌐 API Integration (Planned)
+## API Integration (Planned)
 
     We will add a Flask or FastAPI backend with a /predict route that:
     * Classifies the news input.
     * If fake, returns the closest matching real news article from trusted sources.
 
-## 📣 Acknowledgments
+## Acknowledgments
 
     * Dataset: Kaggle - Fake and Real News
     * NewsAPI.org for real news suggestions
