@@ -23,7 +23,7 @@ This project detects whether a news article is real or fake using a GRU-based de
 - Dense (sigmoid) Output Layer
 - Trained on: [Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 
-Achieved Test Accuracy: ✅ 99.84%
+Achieved Test Accuracy: 99.84%
 
 ## Project Structure
 <pre lang="markdown">
